@@ -18,6 +18,11 @@ export default {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
+    },
+    extend: {
+      backgroundImage: {
+        'sec1': "url('/src/M-images/Background (3).png')",
+      }
     }
   },
   plugins: [],
